@@ -58,3 +58,6 @@ If you want to learn more about building native executables, please consult http
 Easily start your Reactive RESTful Web Services
 
 [Related guide section...](https://quarkus.io/guides/getting-started-reactive#reactive-jax-rs-resources)
+
+## Running mongo db
+docker run -ti --rm -p 27017:27017 mongo:4.4
