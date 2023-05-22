@@ -11,6 +11,10 @@ public class User extends PanacheMongoEntity {
 
     @BsonProperty("name")
     public String name;
+    @BsonProperty("firstName")
+    public String firstName;
+    @BsonProperty("lastName")
+    public String lastName;
     @BsonProperty("email")
     public String email;
     @BsonProperty("password")
